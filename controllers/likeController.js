@@ -1,5 +1,5 @@
-const Like = require('../models/Like');
-const Property = require('../models/Property');
+const Like = require('../models/like.js');
+const Property = require('../models/property.js');
 
 // Get like count by property ID
 exports.getLikeCountByPropertyID = async (req, res) => {
